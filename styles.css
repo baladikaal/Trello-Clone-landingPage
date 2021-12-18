@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+body {
+    background-color: #EAE6FF !important;
+    background-image: linear-gradient(#EAE6FF, white) !important;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12%;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    line-height: 56px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    transition: .5s;
+}
+
+.ubahnav {
+    background: white !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3) !important;
+    transition: 1s;
+}
+
+.nav-wrapper a{
+    color: #0065FF;
+}
+
+.brand-logo{
+    color: black !important;
+}
+
+.btnSignup{
+    color: white !important;
+    background-color: #0065FF !important;
+}
+
+.text1{
+    padding: 50px;
+}
+
+.email{
+    margin-top: 100px;
+}
+
+#gmbr1{
+    margin-left: 25%;
+}
+
+#btn1{
+    margin-top: 10px;
+}
+
+#email{
+    background-color: white;
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#email:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.email p{
+    text-align: justify;
+    font-size: 22px;
+}
+
+#isi{
+    margin-top: 150px;
+}
+
+.isi{
+    margin-top: 100px;
+    padding: 0px 50px;
+}
+
+.isi p{
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+    width:80%;
+    font-size: 20px;
+}
+
+#btn2{
+    color: dodgerblue;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.5px solid dodgerblue;
+}
+
+#btn2:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.sponsor p{
+    font-size: 20px;
+}
+
+.fitur{
+    margin-top: 100px;
+    padding: 0px 50px;
+}
+
+.fitur1,
+.fitur2,
+.fitur3,
+.fitur4 {
+    margin-top: 100px;
+    padding: 0px 50px;
+}
+
+.fitur1,
+.fitur2,
+.fitur3,
+.fitur4 p {
+    color: #7A869A;
+    font-size: 20px;
+}
+
+.subjudul {
+    color: black !important;
+    font-size: 15px !important;
+}
+
+#more,
+#more1,
+#more2, 
+#more3 {
+    display: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#readPg,
+#readPg1,
+#readPg2,
+#readPg3 {
+    color: #8993A4;
+    font-weight: bold;
+}
+
+#readPg:hover,
+#readPg1:hover,
+#readPg2:hover,
+#readPg3:hover {
+    text-decoration: underline;
+}
+
+
+
+.batas{
+    padding-left: 55px;
+    padding-right: 55px;
+    color: black;
+}
+
+#offer {
+    padding: 0px 50px;
+}
+
+.offer h4{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.testi{
+    margin-top: 50px;
+    background-color: #E6FCFF;
+    height: 462px;
+}
+
+.slider .slides {
+    background-color: #E6FCFF !important;
+}
+
+.slider h3,
+.slider h5{
+    color: #172B4D !important;
+}
+
+.slider h3{
+    font-weight: 400;
+}
+
+.slider h5{
+    font-size: 20px;
+}
+
+
+.slider .indicators .indicator-item.active {
+    background-color: #172B4D !important;
+}
+
+.slider .slides li img {
+    background-size: 70% auto !important;
+    background-repeat: no-repeat;
+}
+
+
+.email-signup{
+    background-image: url(img/email-us-2.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.emailInput {
+     margin: auto !important;
+     width: 50%;
+     height: 50%;
+     padding: 70px;
+}
+
+.emailInput p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#find-us {
+    height: 70px;
+    padding: 0px 50px;
+    background-color: #f8f9fa;
+}
+
+.find-us p{
+    margin-left: 40%;
+    font-size: 20px;
+}
+
+.find-us img{
+    margin-top: 10px;
+}
+
+.location{
+    margin-top: 50px;
+    background-color: white;
+}
+
+.container-isi{
+    width: 20% !important;
+    margin: 0 auto !important;
+}
+.others {
+    margin-top: 30px;
+    padding: 0px 150px;
+}
+
+.others a{
+    color: #8993A4;
+    text-decoration: underline;
+}
+
+.others a:hover {
+    color: #584D58;
+}
+
+
+.btnSignupEmail {
+    color: white !important;
+    background-color: #00B8D9 !important;
+}
+
+

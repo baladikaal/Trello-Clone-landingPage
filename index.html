@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Trello</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img src="img/trello-logo.png" width="50" height="auto"
+                        alt=""><b>Trello</b></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a>Login</a></li>
+                    <li><a class="waves-effect btn btnSignup">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section id="signUp">
+        <div class="row text1">
+            <div class="col m7 email">
+                <h2><b>Trello helps teams move work forward.</b></h2>
+                <p>Collaborate, manage projects, and reach new productivity peaks. From high rises to the home office,
+                    the way your team works is unique—accomplish it all with Trello.</p>
+                <div class="row">
+                    <div class="col s7">
+                        <input id="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="col s5">
+                        <a id="btn1" class="btn btnSignup">Sign Up-It's free!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col m5 right-align">
+                <img id="gmbr1" src="img/hero.png" width="88%" height="auto" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="isi">
+        <div class="isi">
+            <div class="row center">
+                <h4><b>It’s more than work. It’s a way of working together.</b></h4>
+                <p>Start with a Trello board, lists, and cards. Customize and expand with more features
+                    as your teamwork
+                    grows. Manage projects, organize tasks, and build team spirit—all in one place.</p>
+                <a id="btn2" class="btn center"><b>Start doing →</b></a>
+            </div>
+            <div class="row center">
+                <img src="img/board.png" width="100%" height="auto" alt="">
+            </div>
+            <div class="row center sponsor">
+                <p>Join over 1,000,000 teams worldwide that are using Trello to get more done.</p>
+                <img src="img/all-logo-spon.png" width="50%" height="auto" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="fitur">
+        <div class="row fitur">
+            <div class="col m5">
+                <h4><b>Features to help your team succeed</b></h4>
+                <p>Powering a productive team means using a powerful tool (and plenty of snacks). From meetings and
+                    projects to events and goal setting, Trello’s intuitive features give any team the ability to
+                    quickly set up and customize workflows for just about anything.</p>
+            </div>
+        </div>
+        <div class="row fitur1">
+            <div class="col m5">
+                <img src="img/fitur1.png" width="100%" height="auto" alt="">
+            </div>
+            <div class="col m7">
+                <p class="subjudul"><b>CHOOSE A VIEW</b></p>
+                <h4><b>The board is just the beginning</b></h4>
+                <p>Lists and cards are the building blocks of organizing work on a Trello board. Grow from there with
+                    task assignments, timelines, productivity metrics, calendars, and more.</p>
+                <a href="javascript:void(0);" onclick="readMore()" id="readPg">+ Learn More</a>
+                <span id="dots"></span><span id="more"><br>
+                    You and your team can start up a Trello board in seconds. With the ability to view board data
+                    from
+                    many different angles, the entire team stays up-to-date in the way that suits them best:
+                    <br>
+                    <br>
+                    <li>Use a Timeline view for project planning</li>
+                    <li>Calendar helps with time management</li>
+                    <li>Table view connects work across boards</li>
+                    <li>See board stats with Dashboard, and more!</li>
+                </span>
+            </div>
+        </div>
+        <div class="row fitur2">
+            <div class="col m7">
+                <p class="subjudul"><b>DIVE INTO THE DETAILS</b></p>
+                <h4><b>Cards contain everything you need</b></h4>
+                <p>Trello cards are your portal to more organized work—where every single part of your task can be
+                    managed, tracked, and shared with teammates. Open any card to uncover an ecosystem of checklists,
+                    due dates, attachments, conversations, and more.</p>
+                <a href="javascript:void(0);" onclick="readMore1()" id="readPg1">+ Learn More</a>
+                <span id="dots1"></span><span id="more1"><br>
+                    Spin up a Trello card with a click, then uncover everything it can hold. Break down bigger card
+                    tasks into steps with file attachment previews, reminders, checklists and comments—emoji reactions
+                    included! Plus, gain powerful perspective by seeing all cards by list and status at the board level.
+                    <br><br>Your team can:
+                    <br>
+                    <br>
+                    <li>Manage deadlines</li>
+                    <li>Provide and track feedback</li>
+                    <li>Assign tasks and hand off work</li>
+                    <li>Connect work across apps</li>
+                </span>
+            </div>
+            <div class="col m5">
+                <img src="img/fitur2.png" width="100%" height="auto" alt="">
+            </div>
+        </div>
+        <div class="row fitur3">
+            <div class="col m5">
+                <img src="img/fitur3.png" width="100%" height="auto" alt="">
+            </div>
+            <div class="col m7">
+                <p class="subjudul"><b>MEET YOUR NEW BUTLER</b></p>
+                <h4><b>No-code automation</b></h4>
+                <p>Let the robots do the work—so your team can focus on work that matters. With Trello’s built-in
+                    automation, Butler, reduce the number of tedious tasks (and clicks) on your project board by
+                    harnessing the power of automation across your entire team.</p>
+                <a href="javascript:void(0);" onclick="readMore2()" id="readPg2">+ Learn More</a>
+                <span id="dots2"></span><span id="more2"><br>
+                    Butler uses natural language commands to automate just about any task in Trello:
+                    <br>
+                    <br>
+                    <li>Automate common actions like moving lists</li>
+                    <li>Create custom buttons to build process quickly</li>
+                    <li>Surface upcoming deadlines to the team</li>
+                    <li>Schedule teammate assignments, and more!</li>
+                </span>
+            </div>
+        </div>
+        <div class="row fitur4">
+            <div class="col m7">
+                <p class="subjudul"><b>POWER-UPS</b></p>
+                <h4><b>Integrate top work tools</b></h4>
+                <p>Easily connect the apps your team already uses into your Trello workflow, or add a Power-Up that
+                    helps fine-tune one specific need. With hundreds of Power-Ups available, your team’s workflow wishes
+                    are covered.</p>
+                <a href="javascript:void(0);" onclick="readMore3()" id="readPg3">+ Learn More</a>
+                <span id="dots3"></span><span id="more3"><br>
+                    From Reporting to Custom Fields to your beloved software integrations—we’ve got functionalities,
+                    your
+                    favorites, and more!
+                    <br><br>Such as:
+                    <br>
+                    <br>
+                    <li>Confluence</li>
+                    <li>Slack</li>
+                    <li>Dropbox</li>
+                    <li>Google Drive</li>
+                    <li>Evernote</li>
+                </span>
+            </div>
+            <div class="col m5">
+                <img src="img/fitur4.png" width="100%" height="auto" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="batas">
+        <hr>
+    </div>
+
+    <section id="offer">
+        <div class="row offer">
+            <div class="col m3 offerimg center">
+                <img src="img/offer1.svg" alt="">
+            </div>
+            <div class="col m3">
+                <h4>See our pricing</h4>
+                <p>Whether you’re a team of 2 or 2,000, there’s a Trello tailor-made for your organization.</p>
+                <a id="btn2" class="btn center"><b>Trello priciling</b></a>
+            </div>
+            <div class="col m3 offerimg center">
+                <img src="img/offer2.svg" alt="">
+            </div>
+            <div class="col m3">
+                <h4>Take a Trello tour</h4>
+                <p>Explore the world of boards and beyond in Trello. Dive deeper into our most popular features.</p>
+                <a id="btn2" class="btn center"><b>Tour Trello</b></a>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="batas">
+        <hr>
+    </div>
+
+    <section id="testinomial">
+        <div class="testi">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <div class="caption left-align">
+                            <h3>" Everyone loves it; it has democratized our finance function. In some ways Trello
+                                shattered hierarchy and brought us together.</h3>
+                            <h5 class="right-align">BHARATH SUNDAR<br>
+                                Finance, eBay
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="caption left-align">
+                            <h3>" Very simple to use, great automation and keeps me on track with all I need to do. I
+                                also
+                                like that it can be shared with others.</h3>
+                            <h5 class="right-align">KERRY PARKER-EVANS<br>
+                                IT Project Manager, Egencia
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="caption left-align">
+                            <h3>" Trello makes it easy to keep everyone on the same page. As changes happen, the
+                                real-time
+                                updates with email notifications have been key.</h3>
+                            <h5 class="right-align">HAYDON DOTSON<br>
+                                Sales Manager, Detroit Red Wings
+                            </h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="caption left-align">
+                            <h3>" Now that we've switched to a remote environment, with the use of Trello, we can now
+                                limit the number of meetings we have regarding specific projects and turn to Trello for
+                                updates instead.</h3>
+                            <h5 class="right-align">HALEY ENNES <br>
+                                HR Manager, Sprout Social</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="email-signup">
+        <div class="email-signup">
+            <div class="row emailInput">
+                <p class="center">Sign up and get started with Trello today. A world of productive teamwork awaits!</p>
+                <div class="col m6">
+                    <input id="email" type="email" placeholder="Email">
+                </div>
+                <div class="col m6">
+                    <a id="btn1" class="btn btnSignupEmail">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="find-us">
+        <div class="find-us center">
+            <div class="row">
+                <div class="col m8">
+                    <p>Trello also works great on your smaller screen.</p>
+                </div>
+                <div class="col m2">
+                    <img src="img/apple.svg" width="100%" alt="">
+                </div>
+                <div class="col m2">
+                    <img src="img/google.svg" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location">
+        <div class="location">
+            <div class="row center">
+                <div class="container-isi">
+                    <select class="browser-default">
+                        <option value="" disabled selected>Select your language</option>
+                        <option value="Čeština">Čeština</option>
+                        <option value="Deutsch">Deutsch</option>
+                        <option value="English">English</option>
+                        <option value="English (AU)">English (AU)</option>
+                        <option value="English (UK)">English (UK)</option>
+                        <option value="English (US)">English (US)</option>
+                        <option value="Español">Español</option>
+                        <option value="Français">Français</option>
+                        <option value="Italiano">Italiano</option>
+                        <option value="Magyar">Magyar</option>
+                        <option value="Nederlands">Nederlands</option>
+                        <option value="Norsk (bokmål)">Norsk (bokmål)</option>
+                        <option value="Polski">Polski</option>
+                        <option value="Português (Brasil)">Português (Brasil)</option>
+                        <option value="Suomi">Suomi</option>
+                        <option value="Svenska">Svenska</option>
+                        <option value="Tiếng Việt">Tiếng Việt</option>
+                        <option value="Türkçe">Türkçe</option>
+                        <option value="Русский">Русский</option>
+                        <option value="Українська">Українська</option>
+                        <option value="ภาษาไทย">ภาษาไทย</option>
+                        <option value="中文 (简体)">中文 (简体)</option>
+                        <option value="中文 (繁體)">中文 (繁體)</option>
+                        <option value="日本語">日本語</option>
+                    </select>
+                </div>
+                <div class="others center">
+                    <div class="col s12 m1 l1">
+                        <a href="">Templates</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="#">Pricing</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Apps</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Jobs</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Blog</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Developers</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">About</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Help</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Legal</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Cookie</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Settings</a>
+                    </div>
+                    <div class=" col s12 m1 l1">
+                        <a href="">Privacy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row center">
+                <img src="img/footer.png" width="200px" height="auto" alt="">
+                <p> © Copyright 2021. All rights reserved. </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
