@@ -9,4 +9,4 @@ karena framework digunakan berupa link yang terhubung dengan internet
 - IDE / Software yang digunakan : Visual Studio Code
 
 # Preview
-![image](https://user-images.githubusercontent.com/74690318/146633599-750be290-a00d-43e0-bd83-3cfd16043904.png)
+<img src="https://user-images.githubusercontent.com/74690318/146633599-750be290-a00d-43e0-bd83-3cfd16043904.png" width="500">
